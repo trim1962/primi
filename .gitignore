@@ -1,0 +1,10 @@
+*.bak
+*.o
+*.ppu
+*.compiled
+*.aux
+*.csv
+*.log
+*.pdf
+*.gz
+*.exe
