@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="stampanumeriprimitest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StampaNumeriPrimi"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="4" Y="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mytype.pas"/>
+        <UnitName Value="MyType"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="8">
+      <Position>
+        <Filename Value="stampanumeriprimitest.lpr"/>
+        <Caret Line="3" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="stampanumeriprimitest.lpr"/>
+        <Caret Line="35" Column="13" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="stampanumeriprimitest.lpr"/>
+        <Caret Line="51" Column="5" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="stampanumeriprimitest.lpr"/>
+        <Caret Line="19" Column="19" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="stampanumeriprimitest.lpr"/>
+        <Caret Line="12" Column="10" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="stampanumeriprimitest.lpr"/>
+        <Caret Line="21" Column="33" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="stampanumeriprimitest.lpr"/>
+        <Caret Line="25" Column="14" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="stampanumeriprimitest.lpr"/>
+        <Caret Line="24" Column="22" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="stampanumeriprimitest.lpr"/>
+        <Caret Line="21" Column="30"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

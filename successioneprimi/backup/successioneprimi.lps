@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="successioneprimi.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SuccessionePrimi"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="18" Y="9"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utile.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Utile"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="5"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mathutils.pas"/>
+        <UnitName Value="MathUtils"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="4" Y="77"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mytype.pas"/>
+        <UnitName Value="MyType"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="11"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="11">
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="29" Column="5"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="3" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="42" Column="5" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="41" Column="28" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="69" Column="5" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="15" Column="20" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="26" Column="7" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="15" Column="20"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="17" Column="61" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="15" Column="36" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="12" Column="9" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="5"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
