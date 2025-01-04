@@ -5,7 +5,7 @@ MyType, MathUtils,writelatex, writecsv;
 
 const
   MaxNum = 100;  // Limite superiore per i numeri primi
-  NumPerLine = 10; // Numero di numeri primi per riga nella tabella
+  NumPerLine = 12; // Numero di numeri primi per riga nella tabella
 
 
 var

@@ -26,6 +26,7 @@ begin
   AssignFile(output, filename);
   Rewrite(output);
   writeln(output, '\documentclass{article}');
+ writeln(output, ' \usepackage[left=30mm,right=15mm,top=20mm,bottom=20mm,bindingoffset=0cm,showframe,]{geometry} ');
   writeln(output, '\usepackage{longtable}');
   writeln(output, '\usepackage{booktabs}');
   writeln(output, '\begin{document}');
@@ -48,14 +49,15 @@ begin
 
   for i := 0 to High(data) do
   begin
-    for j := 0 to High(data[i]) - 1 do
+    for j := 0 to numColumns -1 do
     begin
       write(output, data[i, j]:5);
-      if j < High(data[i]) then
-        write(output, ' & ');
-    end;
+      if j < numColumns -1 then
+        write(output, ' & ')
+      else
     writeln(output, '\\');
-  end;
+      end;
+    end;
 
   writeln(output, '\bottomrule');
   writeln(output, '\end{longtable}');
@@ -72,7 +74,7 @@ var
 begin
   SetLength(data, Trunc(primes.Count / numColumns) + 1, numColumns);
   riga := 0;
-  for i := 0 to primes.Count - 1 do
+  for i := 0 to primes.Count-1 do
   begin
     data[riga, i mod numColumns] := IntToStr(primes[i]);
     if (i + 1) mod numColumns = 0 then

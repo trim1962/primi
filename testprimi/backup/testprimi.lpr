@@ -4,8 +4,8 @@ uses
 MyType, MathUtils,writelatex, writecsv;
 
 const
-  MaxNum = 100;  // Limite superiore per i numeri primi
-  NumPerLine = 15; // Numero di numeri primi per riga nella tabella
+  MaxNum = 100000;  // Limite superiore per i numeri primi
+  NumPerLine = 12; // Numero di numeri primi per riga nella tabella
 
 
 var

@@ -22,8 +22,7 @@ begin
   Rewrite(f);
 
   writeln(f, '\documentclass{article}');
-  //writeln(f, ' \usepackage[left=30mm,right=15mm,top=20mm,bottom=20mm,bindingoffset=0cm,showframe]{geometry} ');
-  writeln(f, ' \usepackage[left=30mm,right=15mm,top=20mm,bottom=20mm,bindingoffset=0cm]{geometry} ');
+  writeln(f, ' \usepackage[left=30mm,right=15mm,top=20mm,bottom=20mm,bindingoffset=0cm,showframe,]{geometry} ');
   writeln(f, '\usepackage{booktabs}');
   writeln(f, '\usepackage{longtable}');
   writeln(f, '\begin{document}');

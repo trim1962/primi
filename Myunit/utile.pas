@@ -13,7 +13,7 @@ implementation
 var
   i: Integer;
 begin
-  for i := 1 to list.Count - 1 do
+  for i := 0 to list.Count - 1 do
     if list[i] = value then
       Exit(True);
   Exit(False);

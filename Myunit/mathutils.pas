@@ -80,12 +80,11 @@ begin
     SetLength(isPrime, MaxNum + 1); // Initialize the array size
     for i := 2 to MaxNum do
       isPrime[i] := True; // Initialize all elements to True
-
+      isPrime[1] := false;
  // for i := 2 to Trunc(Sqrt(MaxNum)) do
  //   if isPrime[i] then
  //     for j := i * i to MaxNum div i do
  //       isPrime[j] := False;
-
     for i := 2 to Trunc(Sqrt(MaxNum)) do
       if isPrime[i] then
         for m := 2 to MaxNum do
@@ -93,6 +92,7 @@ begin
             isPrime[i*m] := False;
     for i := 2 to MaxNum do
       if isPrime[i] then
+
         primes.Add(i);     //da valore logico a valore numerico
 
   EratostenePrimes := primes;
@@ -105,9 +105,11 @@ end;
    i, conta: Integer;
  begin
    conta := 0;
-   for i := 2 to n do
+   for i := 0 to n do
      if IsInList(i, primes) then
+       begin
        Inc(conta);
+       end;
    ContaPrimiFinoA := conta;
  end;
 end.

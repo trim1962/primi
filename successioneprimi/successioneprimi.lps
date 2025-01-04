@@ -10,8 +10,9 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="SuccessionePrimi"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="14" Y="9"/>
-        <UsageCount Value="22"/>
+        <TopLine Value="10"/>
+        <CursorPos X="5" Y="25"/>
+        <UsageCount Value="41"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -20,7 +21,7 @@
         <UnitName Value="Utile"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="5"/>
-        <UsageCount Value="21"/>
+        <UsageCount Value="40"/>
       </Unit>
       <Unit>
         <Filename Value="mathutils.pas"/>
@@ -28,41 +29,55 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="7"/>
         <CursorPos X="4" Y="77"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="mytype.pas"/>
         <UnitName Value="MyType"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="36" Y="11"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Myunit\mathutils.pas"/>
+        <UnitName Value="MathUtils"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="90"/>
+        <CursorPos X="27" Y="116"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Myunit\mytype.pas"/>
+        <UnitName Value="MyType"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="23" Y="14"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Myunit\utile.pas"/>
+        <UnitName Value="Utile"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="20" Y="22"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Myunit\writecsv.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Myunit\writelatex.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="14"/>
+        <CursorPos Y="29"/>
+        <UsageCount Value="16"/>
+        <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="11">
-      <Position>
-        <Filename Value="successioneprimi.lpr"/>
-        <Caret Line="29" Column="5"/>
-      </Position>
-      <Position>
-        <Filename Value="successioneprimi.lpr"/>
-        <Caret Line="3" Column="21"/>
-      </Position>
-      <Position>
-        <Filename Value="successioneprimi.lpr"/>
-        <Caret Line="42" Column="5" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="successioneprimi.lpr"/>
-        <Caret Line="41" Column="28" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="successioneprimi.lpr"/>
-        <Caret Line="69" Column="5" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="successioneprimi.lpr"/>
-        <Caret Line="15" Column="20" TopLine="2"/>
-      </Position>
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="successioneprimi.lpr"/>
         <Caret Line="26" Column="7" TopLine="14"/>
@@ -86,6 +101,102 @@
       <Position>
         <Filename Value="successioneprimi.lpr"/>
         <Caret Line="5"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="13" Column="8"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Myunit\mathutils.pas"/>
+        <Caret Line="112" Column="19" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="178" Column="20" TopLine="153"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="54" Column="7"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="8" Column="15" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="65" Column="7" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="19" Column="11" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="57" Column="7" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="55" Column="5" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="178" Column="20" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="69" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="48" Column="11" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="40" Column="25" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Myunit\writelatex.pas"/>
+        <Caret Line="54" Column="48" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="5" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="65" Column="56" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="16" Column="93" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="32" Column="75" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="43" Column="30" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="40" Column="15" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="42" Column="43" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="78" Column="13" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="81" Column="13" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="successioneprimi.lpr"/>
+        <Caret Line="34" Column="10" TopLine="22"/>
       </Position>
     </JumpHistory>
     <RunParams>

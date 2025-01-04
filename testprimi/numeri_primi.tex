@@ -1,14 +1,18 @@
 \documentclass{article}
+ \usepackage[left=30mm,right=15mm,top=20mm,bottom=20mm,bindingoffset=0cm,showframe,]{geometry} 
 \usepackage{longtable}
 \usepackage{booktabs}
 \begin{document}
-\begin{longtable}{*{10}{c}}
-\caption{Numeri primi}\label{tab:Numeri primi}
+\begin{longtable}{*{6}{c}}
+\caption{Numeri primi}\label{tab:quanti primi}
 \endhead
+N &NP&N&NP&N&NP\\
+1&0&5&3&9&4\\
+2&1&6&3&10&4\\
+3&2&7&4&&\\
+4&2&8&4&&\\
 \toprule
-    2 &     3 &     5 &     7 &    11 &    13 &    17 &    19 &    23 & \\
-   31 &    37 &    41 &    43 &    47 &    53 &    59 &    61 &    67 & \\
-   73 &    79 &    83 &    89 &    97 &       &       &       &       & \\
+    
 \bottomrule
 \end{longtable}
 \end{document}
