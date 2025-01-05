@@ -27,12 +27,7 @@ begin
   writeln(f, '\usepackage{booktabs}');
   writeln(f, '\usepackage{longtable}');
   writeln(f, '\begin{document}');
- // write(f, '\begin{longtable}{|');   //impostazione di longtable  inizio
-
-  // Create column headers
- // for k := 1 to 2*numColonne+2 do
-   // write(f, 'c|');
-  //writeln(f, '}');    //impostazione di longtable  inizio fine
+//impostazione di longtable  inizio fine
   writeln(f, '\begin{longtable}{*{',2*numColonne+2,'}{c}}');
   writeln(f, '\caption{Tabella dei dati}\\');   // scrittura caption
 
@@ -102,3 +97,5 @@ begin
   StampaSuccessione(nMax);
   StampaSuccessioneLatex(nMax, 'test.tex');
 end.
+
+

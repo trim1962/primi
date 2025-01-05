@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="slongtable.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="80"/>
+        <CursorPos X="52" Y="98"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Myunit\mytype.pas"/>
+        <UnitName Value="MyType"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="41" Y="13"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Myunit\utile.pas"/>
+        <UnitName Value="Utile"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\successioneprimi\successioneprimi.lpr"/>
+        <UnitName Value="SuccessionePrimi"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="34" Y="74"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="24">
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="12" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="15" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="8" Column="19"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="21" Column="10"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="8" Column="7"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="23" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="24" Column="9"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Myunit\mytype.pas"/>
+        <Caret Line="12" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Myunit\mytype.pas"/>
+        <Caret Line="17" Column="10"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Myunit\mytype.pas"/>
+        <Caret Line="14" Column="21"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="20" Column="70" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Myunit\mytype.pas"/>
+        <Caret Line="6" Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="10" Column="55"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="20" Column="59" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="59" Column="17" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="64" Column="10" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Myunit\mytype.pas"/>
+        <Caret Line="12" Column="22"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="21" Column="58" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="11" Column="24"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="58" Column="10"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="81" Column="14" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="96" Column="40" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="12" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="6" Column="24"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Myunit\mytype.pas"/>
+        <Caret Line="13" Column="41"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -10,9 +10,8 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="SuccessionePrimi"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="10"/>
-        <CursorPos X="12" Y="25"/>
-        <UsageCount Value="41"/>
+        <CursorPos X="9" Y="4"/>
+        <UsageCount Value="42"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -21,7 +20,7 @@
         <UnitName Value="Utile"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="5"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="41"/>
       </Unit>
       <Unit>
         <Filename Value="mathutils.pas"/>
@@ -42,7 +41,6 @@
         <Filename Value="..\Myunit\mathutils.pas"/>
         <UnitName Value="MathUtils"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="90"/>
         <CursorPos X="27" Y="116"/>
         <UsageCount Value="19"/>
         <Loaded Value="True"/>
@@ -50,15 +48,15 @@
       <Unit>
         <Filename Value="..\Myunit\mytype.pas"/>
         <UnitName Value="MyType"/>
-        <EditorIndex Value="3"/>
-        <CursorPos X="23" Y="14"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="15" Y="11"/>
         <UsageCount Value="19"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="..\Myunit\utile.pas"/>
         <UnitName Value="Utile"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="3"/>
         <CursorPos X="20" Y="22"/>
         <UsageCount Value="19"/>
         <Loaded Value="True"/>
@@ -70,14 +68,13 @@
       </Unit>
       <Unit>
         <Filename Value="..\Myunit\writelatex.pas"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="14"/>
         <CursorPos Y="29"/>
         <UsageCount Value="16"/>
-        <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
+    <JumpHistory HistoryIndex="28">
       <Position>
         <Filename Value="successioneprimi.lpr"/>
         <Caret Line="26" Column="7" TopLine="14"/>
@@ -153,10 +150,6 @@
       <Position>
         <Filename Value="successioneprimi.lpr"/>
         <Caret Line="40" Column="25" TopLine="18"/>
-      </Position>
-      <Position>
-        <Filename Value="..\Myunit\writelatex.pas"/>
-        <Caret Line="54" Column="48" TopLine="42"/>
       </Position>
       <Position>
         <Filename Value="successioneprimi.lpr"/>

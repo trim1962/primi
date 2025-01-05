@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="slongtabletest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="10" Y="9"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Myunit\mytype.pas"/>
+        <UnitName Value="MyType"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="6" Y="13"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="2">
+      <Position>
+        <Filename Value="slongtabletest.lpr"/>
+        <Caret Line="20" Column="30" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtabletest.lpr"/>
+        <Caret Line="12" Column="11"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Myunit\mytype.pas"/>
+        <Caret Line="13" Column="6"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
