@@ -9,34 +9,34 @@
         <Filename Value="slongtable.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="64"/>
-        <CursorPos Y="10"/>
-        <UsageCount Value="28"/>
+        <CursorPos X="33" Y="6"/>
+        <UsageCount Value="33"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="..\Myunit\mytype.pas"/>
         <UnitName Value="MyType"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="4"/>
-        <CursorPos X="7" Y="16"/>
-        <UsageCount Value="15"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="6"/>
+        <CursorPos X="19" Y="17"/>
+        <UsageCount Value="17"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="..\Myunit\utile.pas"/>
         <UnitName Value="Utile"/>
-        <EditorIndex Value="3"/>
-        <UsageCount Value="15"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="17"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="..\successioneprimi\successioneprimi.lpr"/>
         <UnitName Value="SuccessionePrimi"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="75"/>
-        <CursorPos Y="74"/>
-        <UsageCount Value="10"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="49"/>
+        <CursorPos X="8" Y="70"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="..\stampanumeriprimitest\stampanumeriprimitest.lpr"/>
@@ -47,21 +47,21 @@
       </Unit>
       <Unit>
         <Filename Value="slongtabletest.lpr"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
         <CursorPos X="31" Y="23"/>
-        <UsageCount Value="14"/>
+        <UsageCount Value="15"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Myunit\mathutils.pas"/>
+        <UnitName Value="MathUtils"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="15"/>
+        <UsageCount Value="10"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="..\Myunit\mytype.pas"/>
-        <Caret Line="17" Column="10"/>
-      </Position>
-      <Position>
-        <Filename Value="..\Myunit\mytype.pas"/>
-        <Caret Line="14" Column="21"/>
-      </Position>
       <Position>
         <Filename Value="slongtable.lpr"/>
         <Caret Line="20" Column="70" TopLine="4"/>
@@ -173,6 +173,14 @@
       <Position>
         <Filename Value="slongtable.lpr"/>
         <Caret Line="25" Column="49" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="58" Column="6" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="48" Column="27" TopLine="43"/>
       </Position>
     </JumpHistory>
     <RunParams>

@@ -16,7 +16,7 @@ type
       allineamenti: string;
       intestazione: string;
     end;
-  // \usepackage[left=30mm,right=15mm,top=20mm,bottom=20mm,bindingoffset=0cm,showframe,]{geometry}
+  // gestione geometry della pagina
     TTDimPagina = record
       left: string;
       right: string;

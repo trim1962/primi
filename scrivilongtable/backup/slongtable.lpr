@@ -3,7 +3,7 @@ program slongtable;
 {$mode objfpc}{$H+}
 
 uses
-MytYpe, Utile,sysutils;
+MytYpe, Utile,sysutils,MathUtils;
 const
 numColonne =6;
 var
@@ -12,6 +12,7 @@ miatab:TTabella;
 pagina:TTDimPagina;
 output:TextFile;
 numcol:integer;
+nMax: Integer;
 procedure ApperturaFileTex(pag:TTDimPagina;tab:TTabella;var f:TextFile);
 
 begin
@@ -51,39 +52,66 @@ else
     writeln(f,'\endlastfoot');
      //primo endlastfoot longtable  fine
 end;
-procedure CorpoFileTex(var f:TextFile);
+procedure CorpoFileTex(nMax: Integer;var f:TextFile );
+var
+  data: TIntegerDynArray;
+  i,j: Integer;
 begin
-writeln(f, '( 1 &     0)&( 2 &     1)&( 3 &     2)&( 4 &     2)&( 5 &     3)&( 6 &     3)&( 7 &     4)\\');
-writeln(f, '( 8 &     4)&( 9 &     4)&(10 &     4)&(11 &     5)&(12 &     5)&(13 &     6)&(14 &     6)\\ ');
-writeln(f, '(15 &     6)&(16 &     6)&(17 &     7)&(18 &     7)&(19 &     8)&(20 &     8)&(21 &     8)\\');
-writeln(f, '(22 &     8)&(23 &     9)&(24 &     9)&(25 &     9)&(26 &     9)&(27 &     9)&(28 &     9)\\');
-writeln(f, '(29 &    10)&(30 &    10)& ');
+  SetLength(data, nMax * 2); // Allocate space for data pairs (index, value)
+  for i := 0 to nMax do
+  begin
+  data[i] := ContaPrimiFinoA(i, EratostenePrimes(i)); // Value (number of primes)
+  end;
+    j:=0;
+  for i := 1 to nMax do
+  if j < numColonne then
+        begin
+        write(f,'(',i:2, ' & ',data[i]:5,')','&');
+         j:=j+1
+        end
+      else
+      begin
+    writeln(f,'(',i:2, ' & ',data[i]:5,')','\\');
+     j:=0
+ end;
 end;
 procedure ChiusuraFileTex(var f:TextFile);
 begin
    writeln(f, '\end{longtable}');
   writeln(f, '\end{document}');
 end;
-
+function SommaS(Nc:string;Ns:string; ln:integer):string;
+    var
+    temp,tmp:string;
+    n:integer;
+begin
+  temp:='';
+  tmp:=Nc+'&'+Ns+'&';
+  for n :=1 to ln do
+  temp:=temp+tmp;
+  temp:=temp+Nc+'&'+Ns;
+  SommaS:=temp;
+end;
 
  begin
    assign(output,'prova.tex');
    Rewrite(output);
-
+    miatab.intestazione:=SommaS('N','NC',numColonne);
 
   numcol:=2*numColonne+2;
    temp:=IntToStr(numcol);
    miatab.allineamenti:=concat('*{',temp,'}{c}');
   miatab.caption := 'Tabella di esempio';
-  SetLength(miatab.allineamenti, miatab.colonne);
   pagina.left := '30mm';
   pagina.right := '15mm';
   pagina.top := '20mm';
   pagina.bottom := '20mm';
   pagina.bindingoffset := '0cm';
   pagina.showframe := True;
+  writeln('Inserisci il valore massimo di n: ');
+  readln(nMax);
    ApperturaFileTex(pagina,miatab,output);
-   CorpoFileTex(output);
+   CorpoFileTex(nMax,output);
    ChiusuraFileTex(output);
    close(output);
 
