@@ -8,14 +8,15 @@
       <Unit>
         <Filename Value="slongtabletest.lpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="10" Y="9"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="3"/>
+        <CursorPos X="210" Y="29"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="..\Myunit\mytype.pas"/>
         <UnitName Value="MyType"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="93" Y="19"/>
         <UsageCount Value="10"/>
