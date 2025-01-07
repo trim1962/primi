@@ -9,8 +9,8 @@
         <Filename Value="slongtable.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="77"/>
-        <CursorPos X="2" Y="119"/>
+        <TopLine Value="92"/>
+        <CursorPos X="33" Y="102"/>
         <UsageCount Value="34"/>
         <Loaded Value="True"/>
       </Unit>
@@ -62,10 +62,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="slongtable.lpr"/>
-        <Caret Line="10" Column="55"/>
-      </Position>
       <Position>
         <Filename Value="slongtable.lpr"/>
         <Caret Line="20" Column="59" TopLine="7"/>
@@ -181,6 +177,10 @@
       <Position>
         <Filename Value="slongtable.lpr"/>
         <Caret Line="250" Column="22" TopLine="242"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="103" Column="28" TopLine="89"/>
       </Position>
     </JumpHistory>
     <RunParams>

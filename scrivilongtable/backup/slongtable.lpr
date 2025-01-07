@@ -29,6 +29,7 @@ else
   writeln(f, '\begin{document}');
 //impostazione di longtable  inizio fine
   writeln(f, '\begin{longtable}{',tab.allineamenti,'}');
+  if tab.ifcaption then
   writeln(f, '\caption{',tab.caption,'}\\');   // scrittura caption
 
    //primo head longtable  inizio
@@ -100,6 +101,7 @@ end;
 
   numcol:=2*numColonne+2;
    temp:=IntToStr(numcol);
+   miatab.ifcaption:=false;
    miatab.allineamenti:=concat('*{',temp,'}{c}');
   miatab.caption := 'Tabella di esempio';
   pagina.left := '30mm';
@@ -115,6 +117,7 @@ end;
    ChiusuraFileTex(output);
    close(output);
 
-
 end.
+
+
 

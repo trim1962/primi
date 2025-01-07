@@ -11,9 +11,11 @@ type
   TBooleanArray = array of Boolean;
   // gestione allineamento tabella
     TTabella = record
+      ifcaption:boolean;
       colonne: integer;
       caption: string;
       allineamenti: string;
+      ifintestazione:boolean;
       intestazione: string;
     end;
   // gestione geometry della pagina
@@ -25,7 +27,9 @@ type
       bindingoffset: string;
       showframe: boolean;
     end;
+    // gestione matrici
 
+  TTmatrice=  array of array of integer;
   implementation
 
   end.

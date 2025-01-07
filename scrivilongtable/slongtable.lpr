@@ -29,16 +29,19 @@ else
   writeln(f, '\begin{document}');
 //impostazione di longtable  inizio fine
   writeln(f, '\begin{longtable}{',tab.allineamenti,'}');
+  if tab.ifcaption then
   writeln(f, '\caption{',tab.caption,'}\\');   // scrittura caption
 
    //primo head longtable  inizio
    writeln(f,'\toprule');
+   if tab.ifintestazione then
    writeln(f,tab.intestazione,'\\');
    writeln(f,'\midrule');
    writeln(f,'\endfirsthead');
    //primo head longtable  fine
     //head longtable  inizio
     writeln(f,'\toprule');
+    if tab.ifintestazione then
    writeln(f,tab.intestazione,'\\');
    writeln(f,'\midrule');
    writeln(f,'\endhead');
@@ -96,11 +99,13 @@ end;
  begin
    assign(output,'prova.tex');
    Rewrite(output);
+   miatab.ifintestazione:=false;
     miatab.intestazione:=SommaS('N','NC',numColonne);
 
   numcol:=2*numColonne+2;
    temp:=IntToStr(numcol);
    miatab.allineamenti:=concat('*{',temp,'}{c}');
+   miatab.ifcaption:=false;
   miatab.caption := 'Tabella di esempio';
   pagina.left := '30mm';
   pagina.right := '15mm';

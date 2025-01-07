@@ -8,25 +8,25 @@
       <Unit>
         <Filename Value="slongtable.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="33" Y="6"/>
-        <UsageCount Value="33"/>
+        <TopLine Value="30"/>
+        <CursorPos X="20" Y="32"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="..\Myunit\mytype.pas"/>
         <UnitName Value="MyType"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="6"/>
-        <CursorPos X="19" Y="17"/>
-        <UsageCount Value="17"/>
+        <CursorPos X="17" Y="14"/>
+        <UsageCount Value="18"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="..\Myunit\utile.pas"/>
         <UnitName Value="Utile"/>
         <EditorIndex Value="4"/>
-        <UsageCount Value="17"/>
+        <UsageCount Value="18"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -56,24 +56,13 @@
         <Filename Value="..\Myunit\mathutils.pas"/>
         <UnitName Value="MathUtils"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="15"/>
-        <UsageCount Value="10"/>
+        <TopLine Value="90"/>
+        <CursorPos Y="116"/>
+        <UsageCount Value="11"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="slongtable.lpr"/>
-        <Caret Line="20" Column="70" TopLine="4"/>
-      </Position>
-      <Position>
-        <Filename Value="..\Myunit\mytype.pas"/>
-        <Caret Line="6" Column="15"/>
-      </Position>
-      <Position>
-        <Filename Value="slongtable.lpr"/>
-        <Caret Line="10" Column="55"/>
-      </Position>
       <Position>
         <Filename Value="slongtable.lpr"/>
         <Caret Line="20" Column="59" TopLine="7"/>
@@ -181,6 +170,18 @@
       <Position>
         <Filename Value="slongtable.lpr"/>
         <Caret Line="48" Column="27" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Myunit\mathutils.pas"/>
+        <Caret Column="15"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="250" Column="22" TopLine="242"/>
+      </Position>
+      <Position>
+        <Filename Value="slongtable.lpr"/>
+        <Caret Line="103" Column="28" TopLine="89"/>
       </Position>
     </JumpHistory>
     <RunParams>
